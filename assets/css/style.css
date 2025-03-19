@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+h1, h2, h3, a {
+    text-transform: uppercase;
+}
+
 h1 {
     font-size: 4rem;
 }
@@ -28,6 +32,10 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .pink {
@@ -44,4 +52,19 @@ h3 {
 
 .purple {
     color: #DB7CF2
+}
+
+#img-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-menu {
+    list-style: none;
+
+}
+
+.main-menu a {
+    color: black;
 }
