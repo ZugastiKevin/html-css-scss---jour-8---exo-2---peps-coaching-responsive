@@ -42,6 +42,14 @@ header {
     align-items: center;
 }
 
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -81,12 +89,7 @@ a {
 
 #main-menus {
     display: flex;
-    padding-left: 0px;
     gap: 2.5rem;
-}
-
-.main-menu {
-    list-style: none;
 }
 
 .main-menu:hover {
@@ -119,4 +122,41 @@ a {
     color: white;
     background-color: #FF4676;
     border-color: #FF4676;
+}
+
+#approach-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#approach {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2rem;
+    width: 80%;
+}
+
+#approach-img-container {
+    width: 44%;
+    padding-bottom: 1rem;
+}
+
+#approach-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#approach-contents {
+    width: 50%;
+}
+
+.approach-content h2 {
+    padding-left: 0.5rem;
+}
+
+.approach-list::before {
+    content: "- ";
 }
