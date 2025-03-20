@@ -204,6 +204,7 @@ a {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 .big-four-container {
