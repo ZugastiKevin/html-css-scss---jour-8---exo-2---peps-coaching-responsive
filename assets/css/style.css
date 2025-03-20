@@ -216,6 +216,24 @@ footer {
     padding: 1rem;
 }
 
+.hearts::after {
+    content: "(source Gallup 2017)";
+    display: block;
+    font-size: 0.8rem;
+}
+
+.fusee::after {
+    content: "(source Gallup et Harter&al)";
+    display: block;
+    font-size: 0.8rem;
+}
+
+.puzzle::after {
+    content: "(source Kantar TNS et Deloite)";
+    display: block;
+    font-size: 0.8rem;
+}
+
 #accompaniments {
     display: flex;
     flex-direction: column;
