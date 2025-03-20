@@ -211,3 +211,98 @@ a {
     width: 35%;
     padding: 1rem;
 }
+
+#accompaniments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.accompaniments-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.accompaniments-content {
+    width: 33%;
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+.accompaniments-list {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.peps-talents {
+    position: relative;
+}
+
+.peps-talents::after {
+    content: "tes talents";
+    display: block;
+}
+
+.peps-talents::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    display: block;
+    width: 65%;
+    z-index: -1;
+    border-bottom: 0.9rem solid #68D8EE;
+    transform: translate(-50%);
+}
+
+.peps-carriere {
+    position: relative;
+}
+
+.peps-carriere::after {
+    content: "ta carriere";
+    display: block;
+}
+
+.peps-carriere::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    display: block;
+    width: 60%;
+    z-index: -1;
+    border-bottom: 0.9rem solid #FFE17A;
+    transform: translate(-50%);
+}
+
+.peps-commerciale {
+    position: relative;
+}
+
+.peps-commerciale::after {
+    content: "force commerciale";
+    display: block;
+}
+
+.line-purple::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    display: block;
+    width: 90%;
+    z-index: -1;
+    border-bottom: 0.9rem solid #DB7CF2;
+    transform: translate(-50%);
+}
+
+.cta-bottom {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 0px;
+}
