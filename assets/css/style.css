@@ -106,17 +106,20 @@ footer {
 }
 
 #hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
     background-size: cover;
     height: 35vh;
 }
 
-#hero a {
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero a {
     margin-bottom: 3rem;
 }
 
