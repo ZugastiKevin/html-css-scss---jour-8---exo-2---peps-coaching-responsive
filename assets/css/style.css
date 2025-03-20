@@ -205,15 +205,19 @@ footer {
 
 .method-big-four {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 2rem;
+    width: 50%;
 }
 
 .big-four-container {
-    width: 35%;
-    padding: 1rem;
+    width: 45%;
+}
+
+.big-four-container p {
+    padding: 0px 2rem;
 }
 
 .hearts::after {
