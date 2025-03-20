@@ -54,6 +54,10 @@ a {
     text-decoration: none;
 }
 
+footer {
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
 .pink {
     color: #FF4676
 }
@@ -391,6 +395,11 @@ a {
     width: 74%;
 }
 
+.did-you-know::before {
+    content: "Le saviez-vous ?";
+    display: block;
+}
+
 .blog-img-container {
     width: 25%;
     height: 30vh;
@@ -400,4 +409,46 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.contact {
+    border-left: 1px solid black;
+    width: 50%;
+    padding-left: 2rem;
+}
+
+.contact p {
+    margin-top: 0px;
+}
+
+.contact a {
+    color: black;
+}
+
+.contact a:hover {
+    border-bottom: 1px solid black;
+    transition: all 0.2s ease-in;
+}
+
+#remerciment ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#remerciment ul li {
+    border-left: 1px solid black;
+    padding-left: 1rem;
+}
+
+#remerciment ul li:first-child {
+    border-left: none;
 }
