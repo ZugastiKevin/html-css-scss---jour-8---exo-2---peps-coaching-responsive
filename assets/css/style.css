@@ -25,7 +25,7 @@ h1, h2, h3, a {
 
 h1 {
     font-size: 4rem;
-    width: 50%;
+    margin: 4rem 20% 1rem;
 }
 
 h2 {
@@ -81,6 +81,22 @@ footer {
     padding: 0.9rem 2rem;
 }
 
+.global-first-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.global-seconde-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -110,16 +126,8 @@ footer {
     background-size: cover;
 }
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .hero a {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .cta {
@@ -150,21 +158,6 @@ footer {
     color: white;
     background-color: #FF4676;
     border-color: #FF4676;
-}
-
-.global-first-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.global-seconde-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.center {
-    text-align: center;
 }
 
 .approach {
