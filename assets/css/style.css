@@ -77,7 +77,7 @@ footer {
 
 .container-header-hero-footer {
     width: 100%;
-    margin: 0px;
+    margin: 0 auto;
     padding: 0.9rem 2rem;
 }
 
@@ -108,7 +108,6 @@ footer {
 #hero {
     background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
     background-size: cover;
-    height: 35vh;
 }
 
 .hero {
@@ -153,10 +152,19 @@ footer {
     border-color: #FF4676;
 }
 
-#approach-container {
+.global-first-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.global-seconde-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
 }
 
 .approach {
